@@ -5,9 +5,17 @@ import NavBar from "@/components/NavBar";
 export default async function Home({params}) {
   const lang = await getDictionary(params.lang);
   return (
-    <main className={styles.main}>
+    <div>
       <NavBar />
-      <h1>{lang.Landing.title}</h1>
-    </main>
+      <section id="features" className={styles.mainSection}>
+        Section 1
+      </section>
+      <section id="pricing" className={styles.mainSection}>
+        Section 2
+      </section>
+      <section id="about" className={styles.mainSection}>
+        Section 3
+      </section>
+    </div>
   );
 }

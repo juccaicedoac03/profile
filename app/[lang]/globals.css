@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #100F10;
+}
+
+.mainButton {
+    border: 0.5px solid transparent;
+    border-radius: 18px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight:400;
+    background-color: transparent;
+    color:  rgba(255,255,255, 0.67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+
+.mainButton:hover {
+    background-color: #242424;
+    cursor: pointer;
+    border: 0.5px solid #363636;
+    color:  rgba(255,255,255, 0.96);
+    transition: 0.2s;
+}
+
+
+.mainButtonColor {
+    border: 0.5px solid transparent;
+    border-radius: 18px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight:500;
+    background-color: #8739F9;
+    color:  rgba(255,255,255, 0.96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
